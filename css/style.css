@@ -9,7 +9,12 @@ body{
 }
 
 .nav-bar{
-    width: 30%; 
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    padding: 20px;
     
 }
 .nav-bar ul{
@@ -29,14 +34,16 @@ body{
     padding: 2vh;
     font-size: 2.2vh;
     left: 2px;
+    
    
 }
 .nav-bar ul li a{
     text-decoration: none;
     color: black;
+    
 }
-section{
-
+.main{
+    margin-left: 550px;
     padding: 20px;
     font-size: 2.5vh;
 }
