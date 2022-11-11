@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-bar {
+    width: 30%;
+    align-items: flex-start;
+}
+.nav-bar ul li {
+    list-style: none;
+    border: 1px solid black;
+    margin: 2vh;
+    width: 100%;
+}
+.nav-bar ul {
+    align-items: center;
+}
